@@ -1,1 +1,1 @@
-<h2>I'm the footer</h2>
+<h2 class="main-footer">Arrivederci dallo spazio riservato solo ai veri amanti dei fumetti</h2>

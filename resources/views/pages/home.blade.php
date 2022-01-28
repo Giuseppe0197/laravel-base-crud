@@ -4,14 +4,14 @@
 
 <h2>Lista dei fumetti:</h2>
 
-    <ul>
-        @foreach ($comics as $comic)
-            <li>
-                <p>Titolo del fumetto: <a href="{{route('show', $comic -> id)}}">{{$comic -> title}}</a></p>
+    <div class="container">
+    @foreach ($comics as $comic)
+        <div class="comics">
+            <p class="title">Titolo del fumetto: <a href="{{route('show', $comic -> id)}}">{{$comic -> title}}</a></p>
 
-                <p>Data di uscita: {{$comic -> date_release}}</p>
-            </li>
-        @endforeach
-    </ul>
+            <p class="date">Data di uscita: {{$comic -> date_release}}</p>
+        </div>
+    @endforeach
+    </div>
     
 @endsection

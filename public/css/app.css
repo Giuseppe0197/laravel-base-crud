@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #41c1f3;
+}
+
+.main-title,
+.main-footer {
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container .comics {
+  width: calc(25% - 50px);
+  min-height: 100px;
+  margin-top: 40px;
+  border: 2px solid black;
+}
+
+.container .comics p {
+  font-size: 20px;
+}
+
+.container .comics .title {
+  margin-bottom: 10px;
+}
+
+.container .comics .title a {
+  color: black;
+}
+
+.container-comics,
+h2 {
+  text-align: center;
+}
+
+.container-comics .single-comic,
+h2 .single-comic {
+  margin: 30px 0;
+}
+
+.container-comics .single-comic p,
+h2 .single-comic p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
